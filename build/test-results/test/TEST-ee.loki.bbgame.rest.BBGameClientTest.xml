@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ee.loki.bbgame.rest.BBGameClientTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-09-07T16:43:49.627Z" hostname="asterix" time="0.012">
+  <properties/>
+  <testcase name="not200StatusCodeThrows()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.002"/>
+  <testcase name="startNewGameCallCorrect()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.001"/>
+  <testcase name="getTasksCallCorrect()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.0"/>
+  <testcase name="tryBuyItemCallCorrect()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.0"/>
+  <testcase name="ioExceptionThrows()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.0"/>
+  <testcase name="tryResolveTaskCallCorrectAndUrlEncodeWorks()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.002"/>
+  <testcase name="invalidResponseThrows()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.001"/>
+  <testcase name="getReputationCallCorrect()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.002"/>
+  <testcase name="getShopItemsCallCorrect()" classname="ee.loki.bbgame.rest.BBGameClientTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO ee.loki.bbgame.rest.BBGameClient - Started new game: testGameId
+]]></system-err>
+</testsuite>

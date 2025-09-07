@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ee.loki.bbgame.history.HistoryStoreTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-09-07T16:43:49.611Z" hostname="asterix" time="0.015">
+  <properties/>
+  <testcase name="canSaveAndLoadHistory()" classname="ee.loki.bbgame.history.HistoryStoreTest" time="0.014"/>
+  <testcase name="probabilityRateIsCorrect()" classname="ee.loki.bbgame.history.HistoryStoreTest" time="0.0"/>
+  <testcase name="missingProbabilitySuccessRateIsZero()" classname="ee.loki.bbgame.history.HistoryStoreTest" time="0.0"/>
+  <testcase name="statisticsChangeDynamically()" classname="ee.loki.bbgame.history.HistoryStoreTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

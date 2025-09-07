@@ -1,0 +1,29 @@
+= Implementation plan
+:sectnums:
+
+== Infrastructure
+* logging
+* runtime options via config file
+* REST data model
+* REST client
+* history data model
+* history gathering
+* history loading and saving
+* commandline options
+
+== Basic game logic
+* basic game cycle (random task choice, buying lives at every opportunity)
+* history aggregation and display
+* simple task selection. Selection function based on success probability (needs history analysis), task value and task expiration time
+* simple item purchase logic (buy upgrades when lives are over a configurable threshold)
+* using history figure out if and how dragon level affects tasks
+
+== Advanced game logic
+* task message decomposition
+* amending history gathering and analysis based on message parts
+* task selection logic based on configurable reputation strategy. This needs history analysis to understand how attempted/completed tasks influence reputation and if and how reputation influences tasks available.
+* using saved history, figure out what the upgrades do
+* if it makes sense add refined upgrade logic
+
+== Finalising
+* write build and usage instructions
